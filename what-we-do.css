@@ -1,0 +1,143 @@
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+::-webkit-scrollbar {
+  width: 8px; 
+  height: 8px; 
+}
+.content {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  height: 30vh;
+}
+.first-content {
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  font-size: 2rem;
+  font-weight: bold;
+  height: 30vh;
+}
+.imgs {
+  gap: 2rem;
+}
+.second-content {
+  width: 40vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  padding: 2rem;
+  font-size: 1rem;
+}
+.imgs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.allimages {
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  gap: 1rem;
+}
+.allimages > img {
+    height: 60vh;
+    width: 18vw;
+}
+.dots {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 2rem;
+  margin: 2rem;
+}
+.dot {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 0.2rem;
+  font-size: 2rem;
+}
+.d {
+  padding: 4px;
+  border-radius: 50%;
+  border: 2px solid red;
+}
+
+
+
+
+
+
+.img-content{
+    height: 60vh;
+    width: 18vw;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    color:  wheat;
+    gap: 2rem;
+    padding: 0.5rem;
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+.button{
+    background-color: white;
+    color: red;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+.rplace-img:hover{
+ opacity: 0;
+}

@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column; 
+    height: 100vh;
+    gap: 2rem;
+    background-color: rgb(242, 236, 224);
+}
+::-webkit-scrollbar {
+    width: 8px; 
+    height: 8px; 
+}
+.content{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.cards{
+
+    width: 90vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+.cards > div{
+
+   height: 8rem;
+   width: 18rem;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+   align-items: center;
+   align-content: center;
+   padding: 5rem;
+   background-color: white;
+   border: transparent;
+}
+.cards > div:hover{
+    box-shadow: 0.1rem 0.1rem 3rem 0.3rem black;
+
+}
